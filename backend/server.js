@@ -3,6 +3,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const { Client } = require('ssh2');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 app.use(cors());
